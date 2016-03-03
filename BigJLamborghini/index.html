@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Big J Lamborghini</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#">
+			Big J Lamborghini
+			<img src="images/logo.png" />
+		  </a>
+		</div>
+	  </div>
+	</nav>
+	<div class="container" id="models">
+	</div>
+	<a href="#openModal" id="openModelAnc" class="openModelAnc">Open Modal</a>
+	<div id="openModal" class="modalDialog">
+    	<div>
+			<a href="#close" title="Close" class="close">X</a>
+        	<h2></h2>
+			<img src="" width="100%" />
+	        <h4></h4>
+    	</div>
+	</div>
+	<a href="#openModalForm" id="openModelFormAnc" class="openModelFormAnc">Open ModalForm</a>
+	<div id="openModalForm" class="modalDialog">
+    	<div>
+			<a href="#close" title="Close" class="close" id="closeForm">X</a>
+        	<h2>Add New Car</h2>
+			<form role="form" id="carUploadForm">
+			  <div class="form-group">
+				<label for="model">Model:</label>
+				<input type="text" class="form-control" id="model" placeholder="Enter the model of the car">
+			  </div>
+			  <div class="form-group">
+				<label for="Color">Color:</label>
+				<input type="text" class="form-control" id="color" placeholder="Enter the color of the car">
+			  </div>
+			  <div class="form-group">
+				<label for="mileage">Mileage:</label>
+				<input type="text" class="form-control" id="mileage" placeholder="Enter the numeric mileage of the car">
+			  </div>
+			  <div class="form-group">
+				<label for="imageURL">Image URL:</label>
+				<input type="text" class="form-control" id="imageURL" placeholder="Enter the external jpg image url of the car">
+			  </div>
+			  <div class="form-group">
+				<input type="hidden" class="form-control" id="catNumber" placeholder="Enter the category number of the car">
+			  </div>
+			  <button type="button" class="btn btn-default" onClick="uploadCar();">Submit</button>
+			</form>
+    	</div>
+	</div>
+	<script>
+		"use strict";
+	</script>
+	<script src="js/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+	<script src="json/cars.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
