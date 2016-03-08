@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hello Colors and States</title>
+		<script src="lib/angular.js"></script>
+	</head>
+	<body data-ng-app="ColorsStates">
+		<div ng-controller="ColorsStatesCtrl">
+			<button data-ng-click="setColors();">Colors</button>
+			<button data-ng-click="setStates();">States</button>
+			
+			<ul>
+				<li data-ng-repeat = "value in repearLi()">
+					{{value}}
+				</li>
+			</ul>
+			
+		</div>
+		<script src="scripts/module.js"></script>
+		<script src="scripts/controllers/controller.js"></script>
+	</body>
+</html>
