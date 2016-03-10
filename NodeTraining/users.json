@@ -1,0 +1,37 @@
+[
+	{
+		"firstname": "Jerry",
+		"lastname": "Thimothy",
+		"age": "26",
+		"email": "j.jerrythimothy@facebook.com",
+		"company": "Facebook"
+	},
+	{
+		"firstname": "Douglas",
+		"lastname": "Crockford",
+		"age": "27",
+		"email": "douglas.crockford@google.com",
+		"company": "Google"
+	},
+	{
+		"firstname": "Henry",
+		"lastname": "Ford",
+		"age": "24",
+		"email": "henry.ford@ford.com",
+		"company": "Ford"
+	},
+	{
+		"firstname": "Thomas",
+		"lastname": "Edison",
+		"age": "27",
+		"email": "thomas.edison@edison.com",
+		"company": "Edison"
+	},
+	{
+		"firstname": "Nicholas",
+		"lastname": "Tesla",
+		"age": "26",
+		"email": "nicholas.tesla@tesla.com",
+		"company": "Tesla"
+	}
+]
