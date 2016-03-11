@@ -1,0 +1,28 @@
+<div data-ng-controller="listCtrl">
+	<ul>
+		<li class="usersList" data-ng-repeat="user in users" data-ng-click="setUser(user);">
+			{{user.firstname}} {{user.lastname}}
+		</li>
+	</ul>
+</div>
+
+<div data-ng-controller="displayCtrl">
+	<table>
+		<tr>
+			<th>Name</th>
+			<td>{{currentUser.firstname}} {{currentUser.lastname}}</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>{{currentUser.age}}</td>
+		</tr>
+		<tr>
+			<th>Email</th>
+			<td>{{currentUser.email}}</td>
+		</tr>
+		<tr>
+			<th>Company</th>
+			<td>{{currentUser.company}}</td>
+		</tr>
+	</table>
+</div>
